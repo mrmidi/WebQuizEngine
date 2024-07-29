@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Interface</title>
+    <script>
+        function deleteUsers() {
+            fetch('/api/admin/prune-users', {
+                method: 'DELETE'
+            })
+                .then(response => response.text())
+                .then(data => alert(data))
+                .catch(error => console.error('Error:', error));
+        }
+
+        function deleteQuestions() {
+            fetch('/api/admin/prune-questions', {
+                method: 'DELETE'
+            })
+                .then(response => response.text())
+                .then(data => alert(data))
+                .catch(error => console.error('Error:', error));
+        }
+    </script>
+</head>
+<body>
+<h1>Admin Interface</h1>
+<button onclick="deleteUsers()">Delete All Users</button>
+<button onclick="deleteQuestions()">Delete All Questions</button>
+</body>
+</html>

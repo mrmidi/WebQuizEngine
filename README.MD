@@ -2,7 +2,7 @@
 
 This project is a web-based quiz engine built with Java and Spring Boot. It provides functionalities for creating, solving, and managing quizzes. The application uses a range of modern technologies and libraries.    
 
-This is a practical project from the [hyperskill.org course](https://hyperskill.org/projects/97?goal=7) that focuses on building a backend engine with REST API endpoints. The project has been slightly modified from the initial task to support Spring Framework 6+.
+This is a practical project from the [hyperskill.org course](https://hyperskill.org/projects/91) that focuses on building a backend engine with REST API endpoints. The project has been slightly modified from the initial task to support Spring Framework 6+.
 
 ### Features
 
